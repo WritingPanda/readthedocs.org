@@ -73,3 +73,9 @@ nilsimsa==0.3.7
 git+https://github.com/alex/django-filter.git#egg=django-filter
 git+https://github.com/ericflo/django-pagination.git@e5f669036c#egg=django_pagination-dev
 git+https://github.com/alex/django-taggit.git#egg=django_taggit-dev
+jinja2>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
+joblib>=1.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
+nltk>=3.8.1 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+tqdm>=4.66.3 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
